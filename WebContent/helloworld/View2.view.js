@@ -14,7 +14,7 @@ sap.ui.jsview("helloworld.View2", {
 	*/ 
 	createContent : function(oController) {
 		var oLabel = new sap.ui.commons.Label("l1");
-		oLabel.setText("View 2 Changed: Hello World Changes For Diff");
+		oLabel.setText("View 2 Changed to put in a long line of text to see how the line wrap works: Hello World");
 		return oLabel;
 
 	}
