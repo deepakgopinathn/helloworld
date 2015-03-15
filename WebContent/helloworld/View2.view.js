@@ -14,7 +14,7 @@ sap.ui.jsview("helloworld.View2", {
 	*/ 
 	createContent : function(oController) {
 		var oLabel = new sap.ui.commons.Label("l1");
-		oLabel.setText("View 2 Amend Commit: Hello World");
+		oLabel.setText("View 2 My_Branch1: Hello World");
 		return oLabel;
 
 	}
